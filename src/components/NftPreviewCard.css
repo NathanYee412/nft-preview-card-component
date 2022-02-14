@@ -3,6 +3,7 @@
     width: 50px;
     border-radius: 100%;
     border: 2px solid white;
+    margin-left: 1rem;
 }
 
 .cointainer {
@@ -13,19 +14,22 @@
 .card {
     background-color: #15273f;
     border-radius: 25px;
-    width: 400px;
+    width: 375px;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     margin: 0 auto;
+    margin-top: 3rem;
 }
 
 .desc {
     color: #88aad7;
+    padding-left: 1rem;
+    max-width: 350px;
 }
 
 .nft {
     display: block;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     width: 350px;
     height: 350px;
     border-radius: 25px;
@@ -33,6 +37,7 @@
 
 .price {
     color: #01fcf3;
+    padding-left: 1rem;
 }
 
 .logovalue {
@@ -45,8 +50,15 @@
 
 .time {
     color: #88aad7;
+    padding-right: 1rem;
 }
 
 .title {
     color: white;
+    padding-left: 1rem;
+}
+
+
+.right {
+    grid-column: 2;
 }

@@ -13,11 +13,11 @@ function NftPreviewCard(props) {
                 <h1 className='title'>{props.title}</h1>
                 <p className='desc'>{props.desc}</p>
                 <div className='priceandtime'>
-                    <div className='logovalue'>
+                    <div className='left'>
                         <img src={ethlogo} alt='ETH logo' />
                         <p className='price'>{props.ethprice}ETH</p>
                     </div>
-                    <div className='logovalue'>
+                    <div className='right'>
                         <img src={clockicon} alt='clock icon' />
                         <p className='time'>{props.timeleft}</p>
                     </div>
