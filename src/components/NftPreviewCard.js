@@ -7,7 +7,7 @@ function NftPreviewCard(props) {
 
     return(
         <div className='container'>
-            <div className='bg-[#15273f] w-[400px] mx-auto mt-5 rounded-xl'>
+            <div className='bg-[#15273f] w-[400px] mx-auto mt-20 rounded-xl'>
                 <div className='w-[350px] mx-auto py-[24px] drop-shadow-lg'>
                     <img src={nft} alt='nft' className='rounded-xl'/>
                 </div>
